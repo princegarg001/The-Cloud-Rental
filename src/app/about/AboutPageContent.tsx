@@ -65,12 +65,10 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2020", title: "Founded", description: "Started as a small team of IT enthusiasts in Gurugram." },
-  { year: "2021", title: "50+ Clients", description: "Expanded services to cover cloud, security & networking." },
-  { year: "2022", title: "Enterprise Partnerships", description: "Became authorized partners with leading OEMs." },
-  { year: "2023", title: "Managed Services Launch", description: "24/7 managed IT services division established." },
-  { year: "2024", title: "500+ Projects", description: "Crossed 500 successful project deployments." },
-  { year: "2025", title: "National Expansion", description: "Expanded operations across multiple Indian cities." },
+  { year: "2023", title: "Founded", description: "Started as a small team of IT enthusiasts in Gurugram." },
+  { year: "2024", title: "Service Expansion", description: "Expanded services to cover cloud, security & networking." },
+  { year: "2025", title: "Enterprise Partnerships", description: "Became authorized partners with leading OEMs." },
+  { year: "2026", title: "Growing Portfolio", description: "Delivered customized IT solutions to our expanding client base." },
 ];
 
 export default function AboutPageContent() {
@@ -165,9 +163,9 @@ export default function AboutPageContent() {
               {/* Stats grid */}
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { value: "500+", label: "Projects Completed" },
-                  { value: "50+", label: "Enterprise Clients" },
-                  { value: "5+", label: "Years Experience" },
+                  { value: "12", label: "Projects Delivered" },
+                  { value: "5+", label: "Enterprise Clients" },
+                  { value: "3+", label: "Experience" },
                   { value: "24/7", label: "Support Available" },
                 ].map((stat, i) => (
                   <div
@@ -309,7 +307,7 @@ export default function AboutPageContent() {
             Ready to Partner With Us?
           </h2>
           <p className="text-white/40 text-lg mb-8">
-            Join 50+ businesses that trust The Cloud Rental for their IT needs.
+            Join 5+ businesses that trust The Cloud Rental for their IT needs.
           </p>
           <Link
             href="/contact"

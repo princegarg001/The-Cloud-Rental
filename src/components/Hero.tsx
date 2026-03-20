@@ -11,9 +11,9 @@ const floatingIcons = [
 ];
 
 const stats = [
-  { value: "500+", label: "Projects Delivered" },
+  { value: "12", label: "Projects Delivered" },
   { value: "99.9%", label: "Uptime Guarantee" },
-  { value: "50+", label: "Enterprise Clients" },
+  { value: "5+", label: "Enterprise Clients" },
   { value: "24/7", label: "Expert Support" },
 ];
 

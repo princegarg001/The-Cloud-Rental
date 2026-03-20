@@ -16,7 +16,7 @@ const galleryImages = [
     caption: "Data Center Solutions",
   },
   {
-    src: "/gallery/cloud-solutions.png",
+    src: "/gallery/cloud-solutions-v2.png",
     alt: "Cloud computing and solutions",
     caption: "Cloud Solutions",
   },
